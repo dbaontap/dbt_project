@@ -1,19 +1,19 @@
-dbt_project:
+ai_dbt_project:
   target: dev
   outputs:
     dev:
       type: snowflake
       account: 'not needed'
       user: 'not needed'
-      role: SF_DBT_DEMO
-      database: SF_dbt_Demo
+      role: SF_INTELLIGENCE_DEMO
+      database: SF_AI_Demo
       schema: dev
-      warehouse: SF_dbt_Demo_wh
+      warehouse: Snow_Intelligence_demo_wh
     prod:
       type: snowflake
       account: 'not needed'
       user: 'not needed'
-      role: SF_DBT_DEMO
-      database: SF_dbt_Demo
-      schema: prod
-      warehouse: SF_dbt_Demo_wh
+      role: SF_INTELLIGENCE_DEMO
+      database: SF_AI_Demo
+      schema: demo_schema
+      warehouse: Snow_Intelligence_demo_wh
