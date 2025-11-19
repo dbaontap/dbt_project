@@ -1,4 +1,4 @@
-ai_dbt_project:
+end_2_end_demo: 
   target: dev
   outputs:
     dev:

@@ -165,3 +165,11 @@ use schema sf_ai_demo.raw;
     );
 
 create schema sf_ai_demo.dev;
+
+ALTER SCHEMA sf_ai_demo.dev SET LOG_LEVEL = 'INFO';
+ALTER SCHEMA sf_ai_demo.dev SET TRACE_LEVEL = 'ALWAYS';
+ALTER SCHEMA sf_ai_demo.dev SET METRIC_LEVEL = 'ALL';
+
+ALTER SCHEMA sf_ai_demo.demo_schema SET LOG_LEVEL = 'INFO';
+ALTER SCHEMA sf_ai_demo.demo_schema SET TRACE_LEVEL = 'ALWAYS';
+ALTER SCHEMA sf_ai_demo.demo_schema SET METRIC_LEVEL = 'ALL';
