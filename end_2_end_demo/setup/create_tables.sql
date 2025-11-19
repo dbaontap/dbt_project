@@ -1,7 +1,7 @@
 use role SF_Intelligence_Demo;
 use database sf_ai_demo;
-create schema sf_ai_demo.dev;
-use schema sf_ai_demo.dev;
+create schema sf_ai_demo.raw;
+use schema sf_ai_demo.raw;
   
   -- ========================================================================
     -- DIMENSION TABLES
@@ -163,3 +163,5 @@ use schema sf_ai_demo.dev;
         salary DECIMAL(10,2) NOT NULL,
         attrition_flag INT NOT NULL
     );
+
+create schema sf_ai_demo.dev;
