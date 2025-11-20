@@ -1,12 +1,12 @@
 ## Project
 name: end_2_end_demo
 version: "1.0"
-config-vesion: 2
+config-version: 2
 profile: end_2_end_demo
 
 ## Sources
 model-paths: [models]
-analysis-paths: [analyses]
+analysis-paths: [analysis]
 test-paths: [tests]
 seed-paths: [seeds]
 macro-paths: [macros]
